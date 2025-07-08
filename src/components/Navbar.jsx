@@ -7,7 +7,7 @@ const Navbar = ({location}) => {
 
 
   return (
-    <nav className='w-[300px] h-[688px] m-4 p-6 flex flex-col bg-[#121212] shadow-base rounded-2xl'>
+    <nav className='fixed w-[300px] h-[688px] m-4 p-6 flex flex-col bg-[#121212] shadow-base rounded-2xl'>
         <div className='nav-content'>
             <div className="profile-wrapper flex flex-row items-center gap-2">
                 <div className="profile-pic size-[64px] bg-linear-to-b from-[#2E2E2E] to-[#222222] rounded-2xl stroke-1 stroke-[#4a4a4a] shadow-base overflow-hidden">
